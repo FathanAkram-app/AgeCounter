@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 from PySimpleGUI.PySimpleGUI import theme
 sg.theme('topanga')
 window = sg.Window(
-    title="Your Lived", 
+    title="You Lived", 
     layout=[
         [sg.Text(key="date",size=(21,2),font=('Oswald',32))]
     ], 
